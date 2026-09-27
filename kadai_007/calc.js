@@ -2,7 +2,6 @@ const min = 1;
 const max = 15;
 //変数numの定義
 const num = Math.floor(Math.random() * (max - min + 1)) + min
-console.log(num);
 
 //変数numが3の倍数の場合： “3の倍数です”
 if(num % 3 == 0 && num % 5 == 0 ){
